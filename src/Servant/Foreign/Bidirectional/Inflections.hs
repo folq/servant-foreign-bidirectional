@@ -1,5 +1,5 @@
 {-# LANGUAGE OverloadedStrings #-}
-module Servant.Foreign.Inflections
+module Servant.Foreign.Bidirectional.Inflections
   ( concatCase
   , snakeCase
   , camelCase
@@ -18,7 +18,7 @@ import           Data.Text                hiding
                  (map)
 import           Prelude                  hiding
                  (head, tail)
-import           Servant.Foreign.Internal
+import           Servant.Foreign.Bidirectional.Internal
 
 concatCaseL :: Getter FunctionName Text
 concatCaseL = _FunctionName . to mconcat

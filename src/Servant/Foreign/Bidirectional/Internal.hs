@@ -17,7 +17,7 @@
 
 -- | Generalizes all the data needed to make code generation work with
 -- arbitrary programming languages.
-module Servant.Foreign.Internal where
+module Servant.Foreign.Bidirectional.Internal where
 
 import Prelude ()
 import Prelude.Compat

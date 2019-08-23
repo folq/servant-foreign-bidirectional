@@ -15,7 +15,7 @@ import           Data.Monoid
                  ((<>))
 import           Data.Proxy
 import           Servant.Test.ComprehensiveAPI
-import           Servant.Foreign
+import           Servant.Foreign.Bidirectional
 import           Servant.Types.SourceT
                  (SourceT)
 
@@ -23,7 +23,7 @@ import           Test.Hspec
 
 
 spec :: Spec
-spec = describe "Servant.Foreign" $ do
+spec = describe "Servant.Foreign.Bidirectional" $ do
   camelCaseSpec
   listFromAPISpec
 
